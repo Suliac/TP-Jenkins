@@ -6,11 +6,21 @@ using System.Threading.Tasks;
 
 namespace TP_Jenkins
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+        }
+
+        public static int add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static int div(int a, int b)
+        {
+            return a / b;
         }
     }
 }
