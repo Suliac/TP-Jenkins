@@ -9,13 +9,13 @@ namespace Tests_Jenkins
         [Test]
         public void TestAdd()
         {
-            Assert.AreEqual(TP_Jenkins.Program.add(2, 3), 5);
+            Assert.AreEqual(TP_Jenkins.Program.Add(2, 3), 5);
         }
 
         [Test]
         public void TestDiv()
         {
-            Assert.AreEqual(TP_Jenkins.Program.div(6, 2), 3);
+            Assert.AreEqual(TP_Jenkins.Program.Div(6, 2), 3);
         }
 
         //[Test]
