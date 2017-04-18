@@ -1,21 +1,30 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace Tests_Jenkins
+namespace TestsJenkins
 {
+    /// <summary>
+    /// Test class to test calcul function
+    /// </summary>
     [TestFixture]
     public class CalculTest
     {
+        /// <summary>
+        /// Test method for Add function
+        /// </summary>
         [Test]
         public void TestAdd()
         {
-            Assert.AreEqual(TP_Jenkins.Program.Add(2, 3), 5);
+            Assert.AreEqual(TPJenkins.Program.Add(2, 3), 5);
         }
 
+        /// <summary>
+        /// Test method for division function
+        /// </summary>
         [Test]
         public void TestDiv()
         {
-            Assert.AreEqual(TP_Jenkins.Program.Div(6, 2), 3);
+            Assert.AreEqual(TPJenkins.Program.Div(6, 2), 3);
         }
 
         //[Test]
