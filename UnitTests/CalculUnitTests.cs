@@ -19,10 +19,10 @@ namespace UnitTest
             Assert.AreEqual(TP_Jenkins.Program.div(6, 2), 3);
         }
 
-        [Test]
-        public void TestDivByZero()
-        {
-            Assert.Throws<DivideByZeroException>(() => TP_Jenkins.Program.div(6, 0));
-        }
+        //[Test]
+        //public void TestDivByZero()
+        //{
+        //    Assert.Throws<DivideByZeroException>(() => TP_Jenkins.Program.div(6, 0));
+        //}
     }
 }
