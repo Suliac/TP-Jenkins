@@ -4,7 +4,7 @@ using System;
 namespace Tests_Jenkins
 {
     [TestFixture]
-    public class UnitTest1
+    public class CalculTest
     {
         [Test]
         public void TestAdd()
