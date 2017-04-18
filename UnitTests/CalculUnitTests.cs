@@ -4,6 +4,7 @@ using TP_Jenkins;
 
 namespace UnitTest
 {
+    [TestFixture]
     public class UnitTest
     {
         [Test]
