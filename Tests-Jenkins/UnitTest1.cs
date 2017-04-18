@@ -1,11 +1,10 @@
 ﻿using NUnit.Framework;
 using System;
-using TP_Jenkins;
 
-namespace UnitTest
+namespace Tests_Jenkins
 {
     [TestFixture]
-    public class UnitTest
+    public class UnitTest1
     {
         [Test]
         public void TestAdd()
