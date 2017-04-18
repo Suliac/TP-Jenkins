@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[assembly: CLSCompliant(true)]
 namespace TPJenkins
 {
     /// <summary>
     /// Main class
-    /// </summary>
+    /// </summary>    
     public static class Program
     {
         /// <summary>
