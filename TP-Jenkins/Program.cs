@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace TP_Jenkins
 {
-    public class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World");
         }
 
-        public static int add(int a, int b)
+        public static int Add(int a, int b)
         {
             return a + b;
         }
 
-        public static int div(int a, int b)
+        public static int Div(int a, int b)
         {
             return a / b;
         }
