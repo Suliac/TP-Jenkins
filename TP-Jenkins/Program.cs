@@ -12,8 +12,7 @@ namespace TPJenkins
     /// Main class
     /// </summary>    
     public static class Program
-    {       
-
+    {
         /// <summary>
         /// Funtion to add two number
         /// </summary>
