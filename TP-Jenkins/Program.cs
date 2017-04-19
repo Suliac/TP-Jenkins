@@ -16,9 +16,9 @@ namespace TPJenkins
         /// <summary>
         /// Funtion to add two number
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <param name="a">First number</param>
+        /// <param name="b">Second number</param>
+        /// <returns>The addition</returns>
         public static int Add(int a, int b)
         {
             return a + b;
@@ -27,9 +27,9 @@ namespace TPJenkins
         /// <summary>
         /// Function to divide two number
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <param name="a">First number</param>
+        /// <param name="b">Second number</param>
+        /// <returns>The addition</returns>
         public static int Div(int a, int b)
         {
             return a / b;

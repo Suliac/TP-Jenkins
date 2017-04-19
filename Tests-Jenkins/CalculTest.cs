@@ -27,10 +27,13 @@ namespace TestsJenkins
             Assert.AreEqual(TPJenkins.Program.Div(6, 2), 3);
         }
 
-        //[Test]
-        //public void TestDivByZero()
-        //{
-        //    Assert.Throws<DivideByZeroException>(() => TP_Jenkins.Program.div(6, 0));
-        //}
+        /// <summary>
+        /// Test methode for division by zero
+        /// </summary>
+        [Test]
+        public void TestDivByZero()
+        {
+            Assert.Throws<DivideByZeroException>(() => TPJenkins.Program.Div(6, 0));
+        }
     }
 }
