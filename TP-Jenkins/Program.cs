@@ -5,20 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 [assembly: CLSCompliant(true)]
+
 namespace TPJenkins
 {
     /// <summary>
     /// Main class
     /// </summary>    
     public static class Program
-    {
-        /// <summary>
-        /// Entry of the program
-        /// </summary>
-        static void Main()
-        {
-            Console.WriteLine("Hello World");
-        }
+    {       
 
         /// <summary>
         /// Funtion to add two number
@@ -40,6 +34,14 @@ namespace TPJenkins
         public static int Div(int a, int b)
         {
             return a / b;
+        }
+        
+        /// <summary>
+        /// Entry of the program
+        /// </summary>
+        private static void Main()
+        {
+            Console.WriteLine("Hello World");
         }
     }
 }
